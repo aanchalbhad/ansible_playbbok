@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cool Portfolio</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    header {
+      margin-bottom: 60px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+      opacity: 0.8;
+    }
+
+    section {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      max-width: 700px;
+      width: 100%;
+      padding: 30px;
+      margin-bottom: 40px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #fff;
+      padding-bottom: 10px;
+    }
+
+    section p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+
+    ul.skills-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    ul.skills-list li {
+      background: #5a4e7a;
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: background 0.3s ease;
+      cursor: default;
+    }
+
+    ul.skills-list li:hover {
+      background: #3b2d5b;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+
+    a.contact-link {
+      color: #ffd369;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    a.contact-link:hover {
+      color: #ffb84d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aanchal Bhad</h1>
+    <p>Web Developer | Creative Coder | Tech Enthusiast</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I am a passionate web developer who loves creating beautiful and functional websites. With a keen eye for design and detail, I enjoy building responsive and user-friendly experiences using modern web technologies.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+      <li>Git & GitHub</li>
+      <li>Tailwind CSS</li>
+      <li>Responsive Design</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Feel free to reach out via email: 
+      <a class="contact-link" href="mailto:aanchal@example.com">aanchal@example.com</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Aanchal Bhad. All rights reserved.
+  </footer>
+</body>
+</html>
+
